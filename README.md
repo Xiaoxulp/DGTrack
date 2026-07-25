@@ -65,7 +65,7 @@ pip install -r requirements.txt
 - MOT17: https://motchallenge.net/data/MOT17.zip
 - MOT20: https://motchallenge.net/data/MOT20.zip
 - DanceTrack: https://dancetrack.github.io/
-- Sportsmot : 
+- Sportsmot : https://github.com/MCG-NJU/SportsMOT
 
 **2. The file structure should look like:**
 
