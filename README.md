@@ -12,6 +12,8 @@ Multi-object tracking (MOT) requires models to maintain reliable identity associ
 
 ### Framework
 
+The overall framework of the proposed DGTrack consists of three core components: the DIAL Module, the CDIM Module, and a Data Association-Based tracking post-processing Module. In the DIAL module, we use a pre-trained Cross-Domain Feature Extractor to extract domain-invariant target appearance representations. In the CDIM module, we build on a pre-trained Consistent Matching Network to learn a fusion of appearance features and spatial location information. And generate a matching matrix between tracklets and detections through a BI mechanism. Finally, in the data association stage, we combine the matching matrix with the tracker state update strategy and post-processing mechanism to achieve stable matching between detections and historical tracklets.
+
 <img src="./README.assets/image-20260722115037105.png" alt="image-20260722115037105" style="zoom: 67%;" />
 
 ### Results
